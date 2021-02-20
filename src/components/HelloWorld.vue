@@ -91,6 +91,12 @@ export default {
   name: "HelloWorld",
   props: {
     msg: String
+  },
+  data() {
+    myList: [
+      { icon: "mdi-clock-outline", text: "Schedules", route: "/schedules" },
+      { icon: "mdi-clipboard-check-outline", text: "Tasks", route: "/tasksssss" }
+    ];
   }
 };
 </script>
